@@ -17,6 +17,6 @@
     "json2csv": "^5.0.7",
     "moment": "^2.29.4",
     "nodemon": "^2.0.20",
-    "puppeteer": "^19.4.1"
+    "puppeteer": "^22.10.0"
   }
 }

@@ -18,8 +18,8 @@ fastify.register(async (fastify) => {
       if (request.type === "SCRAPE") {
         const { startDate, endDate } = request.data;
         browser = await puppeteer.launch({
-          headless: true,
-          defaultViewport: null,
+          headless: false,
+          // defaultViewport: null,
         });
 
         await scrape(browser, connection, startDate, endDate);
